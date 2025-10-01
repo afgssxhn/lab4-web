@@ -1,0 +1,72 @@
+
+</html><!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>
+            Калькулятор
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">ТСЖ “Волшебные Коммунальщики”</a>
+                </li>
+                <li>
+                    <a href="calculator.html">Калькулятор</a>
+                </li>
+                <li>
+                    <a href="tariffs.html">Таблица тарифов</a>
+                </li>
+            </ul>
+        </nav>
+        
+        
+    </header>
+    <main>
+        <div class="calculator-wrapper">
+            <form>
+                <label for="electro_start"> Электроэнергия (начальные): </label>
+                <input type="number" id="electro_start">
+    
+                <label for="electro_end"> Электроэнергия (конечные): </label>
+                <input type="number" id="electro_end">
+    
+                <label for="cold_start"> Холодная вода (начальные): </label>
+                <input type="number" id="cold_start">
+    
+                <label for="cold_end"> Холодная вода (конечные): </label>
+                <input type="number" id="cold_end">
+    
+                <label for="hot_start"> Горячая вода (начальные): </label>
+                <input type="number" id="hot_start">
+                
+                <label for="hot_end"> Горячая вода (конечные): </label>
+                <input type="number" id="hot_end">
+                
+                <button id="result_but"> Рассчитать </button>
+            </form>
+            <div id="result-area">
+                <h2>Итог:</h2>
+                
+            </div>
+        </div>
+        
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

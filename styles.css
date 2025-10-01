@@ -1,0 +1,92 @@
+body {background-image:
+    linear-gradient(    
+    to bottom, #fffcdc, #d9a7c7
+);
+background-repeat: no-repeat; /* не повторять фон */
+min-height: 100vh; /* на 100% (всю стр)*/
+font-family: 'Cosmic Sans MS', cursive; /* шрифт */
+margin: 0; 
+}
+
+label {
+    display: block;
+}
+
+input {
+    margin-bottom:  10px;
+}
+
+button {
+    display: block;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #dbedca;
+}
+
+.calculator-wrapper {
+    display: flex;
+    gap: 100px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+#result-area {
+    opacity: 0;
+    transition: 1s;
+}
+
+#result-area.visible {
+    opacity: 1;
+    transition: 1s;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+table {
+    margin: 0 auto; /* чтобы таблица была по центру */
+    border: 1px solid black; 
+    border-collapse: collapse; /* чтобы границы слились в одну без зазоров */
+    font-size: 30px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+p {
+    
+    font-size: 20px;
+    display: inline;
+}
+
+img {
+
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    height: auto;
+}
+
+.firts {
+    display: flex;
+    gap: 100px;
+    margin: 40px 80px;
+}
+
+header nav a:hover,
+header nav a:focus-visible {
+    color: #2a5c2a;
+}
+  
